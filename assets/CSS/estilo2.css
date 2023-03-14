@@ -1,0 +1,175 @@
+* {
+    /* border: solid purple;
+    margin: 2px; */
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* BARRA DE NAVEGACIÓN */
+.oscuro ul {
+    /* PARA COLOCAR LAS OPCIONES DEL MENU DE FORMA HORIZONTAL */
+    display: flex;
+    /* PARA QUITAR LOS PUNTOS DE LA LISTA */
+    list-style-type: none;
+    /* PARA CENTRAR TODAS LOS OPCIONES DEL MENU */
+    align-items: center;
+}
+
+/* PARA SEPARAR LAS OPCIONES DEL MENU */
+.oscuro ul li {
+    margin-left: auto;
+}
+
+/* QUITAR EL SUBRAYADO DEL MENU y colocar color al texto  */
+.oscuro ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* COLOCAR COLOR DE FONDO A LA ETIQUETA DE NAVEGACIÓN */
+nav {
+    background-color: #000F08;
+    /* padding: 10px; */
+    /* PARA FIJAR LA ETIQUETA NAV Y NO SE MUEVA */
+    position: fixed;
+    margin-top: 0;
+    width: 100%;
+}
+/* .svg_img{
+    width: 2em;
+    LA PROPIEDAD FILL ES SOLO PARA LAS ETIQUETAS SVG
+    fill:#ffffff;
+} */
+/* SECCION HEADER */
+header {
+    /* COLOCAR IMAGEN DE FONDO AL HEADER */
+    background-image: url('../img/bg-hero.png');
+    /* PARA COLOCARLE EL ALTO DEL HEADER */
+    height: 422px;
+    /* PARA ALINEAR LOS TEXTOS DEL HEADER A LA DERECHA */
+    text-align: right;
+    /* PARA COLOR DEL TEXTO */
+    color: white;
+    /* PARA AGREGAR SOMBRA AL TEXTO */
+    text-shadow: 3px 3px 1px #00000080;
+        
+    /* COLOCAR PADDING PARA QUE SEPARAR DEL NAV */
+    margin-bottom: 30px;
+    margin-top: 30px;
+    /* padding: top 10px; */
+    /* padding-right: 10px; */
+    /* padding: 20px  40px; */
+}
+
+header h1 {
+    /* PARA COLOCAR TAMAÑO Y PESO AL TEXTO DE LA ETIQUETA H1 */
+    font-size: 50px;
+    /* PARA COLOCAR PESO AL TEXTO la unidad es sin px */
+    font-weight: 800;
+}
+
+.subtitulo {
+    /* PARA COLOCAR TAMAÑO Y PESO AL TEXTO DE CLASE SUBTITULO */
+    font-size: 40px;
+    font-weight: 400;
+}
+
+/* SECCIÓN DEl id UBICACIÓN */
+#ubicacion {
+    text-align: center;
+    /* PARA COLOCAR SEPARACIÓN */
+    padding-top: 10px;
+    /* colocar separación entre las cajas */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#ubicacion h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #000F08;
+}
+
+/* SECCIÓN id PROXIMA CHARLA */
+.sweet-brown {
+    background-color: #A4452C;
+    padding: 104px 312px;
+}
+
+.centrado {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.charla-texto {
+    padding-left: 20px;
+}
+
+.charla-texto h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.charla-texto h3 {
+    /* PARA EL TAMAÑO DEL TEXTO LA UNIDAD ES EN PX     */
+    font-size: 40px;
+    /* PARA PESO DEL TEXTO NO NO NO TIENE UNIDAD */
+    font-weight: 700;
+}
+
+.charla-texto h4 {
+    font-size: 33px;
+    font-weight: 400;
+}
+
+.charla-texto h5 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.charla-texto p {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* SECCIÓN DE EVENTOS */
+#eventos{
+    text-align: center;
+}
+.div_articles {
+    display: flex;      
+}
+
+.evento {
+    /* PARA ALEJAR LAS CAJAS DER E IZQ ENTRE LAS ETIQUETAS - EN ESTE CASO LAS IMAGENES */
+    margin: 2px 10px;
+}
+
+/* SECCIÓN FOOTER */
+footer {
+    background-color: #000F08;
+}
+
+.oscuro{
+    background-color: #000F08;
+    text-align: center;
+    color: #ffffff;
+    /* PARA EL PADDING CON 2 DATOS: PRIMERO ARRIBA Y ABAJO SEGUNDO IZQ Y DER */
+    padding: 20px 2px;
+}
+.oscuro a i{
+    color: #ffffff;
+}
+
+
+/* .svg_img{
+    width:"30px";
+    /* PROPIEDAD FILL ES PROPIA DE LA ETIQUETA SVG */
+/* fill:"white"; */
+/* }  */
